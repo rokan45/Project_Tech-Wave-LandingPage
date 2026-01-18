@@ -331,7 +331,7 @@ padding: 0rem .5rem .5rem .5rem;
     font-weight: bold;
     text-align: center;
     margin: 0rem;
-    padding-top: 7rem;
+    padding-top: 6rem;
 }
 .footer-container .wave{
   font-size: 5rem;
@@ -362,4 +362,10 @@ padding: 0rem .5rem .5rem .5rem;
 
 }
 
+.copyrights{
+    color: #FAFAFA;
+    text-align: center;
+    margin-top: 2rem;
+    
+}
 
