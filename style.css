@@ -4,6 +4,52 @@
 }
 
 /* Shared Style */
-
+.btn{
+    color: #FFFFFF;
+}
 
 /* Header Style */
+nav .container{
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1A0B2E;
+
+}
+nav .logo h2{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 70px;
+}
+nav .wave{
+    /* color: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8) */
+    font-size: 40px;
+  font-weight: bold;
+  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav .menu a{
+    padding-right: 32px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav button{
+    width: 135px;
+    height: 45px;
+    margin-right: 70px;
+    display: flex;
+    gap: 5px;
+    padding: 12px 16px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10000px;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* Style For about section */
