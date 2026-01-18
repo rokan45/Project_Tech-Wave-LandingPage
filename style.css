@@ -9,7 +9,7 @@
 }
 
 /* Header Style */
-nav .container{
+nav .nav-container{
     width: 100%;
     max-width: 1160px;
     display: flex;
@@ -53,3 +53,146 @@ nav button{
     font-weight: 600;
 }
 /* Style For about section */
+#about{
+    width: 100%;
+    max-width: 1160px;
+}
+.about-container{
+    width: 100%;
+    max-width: 1160px;
+    background-color: #1A0B2E;
+    padding-top: 50px;
+}
+.text-content{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-content h2{
+    margin-top: 3.2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+}
+.text-content p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #FFFFFF;
+    text-align: center;
+    text-wrap: balance;
+}
+.last-line{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+.stat-container{
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+.stat{
+    width: 240px;
+    height: 95px;
+    text-align: center;
+}
+.stat h2{
+    color: #00FF88;
+    margin: 0rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.stat h5{
+    color: #FFFFFF;
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+/* Style For card Section */
+#card-section{
+    width: 100%;
+    max-width: 1160px;
+}
+   
+.card-container{
+    width: 100%;
+    max-width: 1160px;
+    background-color: #230E3D;
+}
+.card-container h2{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 2.5rem;
+    margin-top: 0rem;
+}
+
+.all-cards{
+    display: grid;
+    gap: 1.5rem;
+    padding: 2rem 3rem 6rem 3rem ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 250px);
+}
+.all-cards img{
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+}
+.all-cards h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+.all-cards p{
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+}
+.card{
+   padding: 2rem 2rem 1rem 2rem;
+   background-color: #351165;
+   border-radius: 40px;
+   box-shadow: 0px 4px 4px 0px #00000025;
+   text-wrap: balance;
+}
+.num1{
+    padding-top: 7rem;
+    grid-column: span 1;
+    grid-row: span 2;
+   
+}
+.num2{
+    grid-column: span 2;
+    grid-row: span 1;
+   
+}
+.num3{
+    grid-column: span 2;
+    grid-row: span 1;
+   
+}
+.num4{
+    grid-column: span 2;
+    grid-row: span 1;
+    
+}
+.num5{
+    grid-column: span 1;
+    grid-row: span 1;
+  
+}
+
+
+
