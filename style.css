@@ -478,3 +478,6 @@ padding: 0rem .5rem .5rem .5rem;
     
 }
 
+.hide{
+    display: none;
+}
