@@ -51,6 +51,101 @@ nav button{
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 600;
+    cursor: pointer;
+}
+                                  /* Style for banner Section */
+#banner-section{
+    width: 100%;
+    max-width: 1160px;
+    height: 720px;
+    background-image: url(/images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+}
+.circle-badge{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    margin-top: 6rem;
+
+}
+.microphone-container{
+    width: 116px;
+    height: 175px;
+    transform: translateX(-230px) translateY(90px);
+}
+
+.new-badge-button button{
+    width: 75px;
+    height: 38px;
+    border-radius: 1000px;
+    padding: .5rem 1rem;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    transform: translateX(-210px) translateY(25px);
+    cursor: pointer;
+}
+
+.banner-content h2{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: .5rem;
+}
+.banner-content p{
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #FFFFFF;
+    text-align: center;
+    text-wrap: balance;
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 0.5rem;
+}
+.button-spotify button{
+    width: 200px;
+    height: 45px;
+    display: flex;
+    gap: .5rem;
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    border-radius: 10000px;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-subscribe button{
+    width: 147px;
+    height: 45px;
+    border-radius: 1000px;
+    display: flex;
+    gap: .5rem;
+    padding: 0.75rem 1rem;
+    justify-content: center;
+    background-color: transparent;
+     font-size: 1rem;
+    font-weight: 600;
+    color: #00FF88;
+    border-color:#00FF88;
+    cursor: pointer;
 }
 
 
